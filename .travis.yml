@@ -3,6 +3,5 @@ language: c
 compiler: gcc
 
 install:
-        make distclean
-        ./configure && make && make install
+        autoreconf --install && ./configure && make && make install
 
