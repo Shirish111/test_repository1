@@ -3,5 +3,5 @@ language: c
 compiler: gcc
 
 install:
-        autoreconf --install && ./configure && make && make install
+        autoreconf --install && ./configure --prefix ./installfolder/abc && make && make install
 
