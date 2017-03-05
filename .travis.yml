@@ -1,9 +1,8 @@
 language: c
 
+compiler: gcc
+
 install:
+        make distclean
         ./configure && make && make install
 
-
-              
-compiler:
-          - gcc
