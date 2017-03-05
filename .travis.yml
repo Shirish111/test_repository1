@@ -1,8 +1,8 @@
 language: c
 
 install: make get-deps
+        ./configure && make && make install
 
-script: scons
 
               
 compiler:
