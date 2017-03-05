@@ -3,5 +3,4 @@ language: c
 compiler: gcc
 
 install:
-        autoreconf --install && ./configure --prefix `pwd`/installfolder/abc && make && make install
 
